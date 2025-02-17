@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Cijfer berekenen</title>
+    <link rel="icon" href="icon.png" type="image/x-icon">
+</head>
+<body>
+    <a href="main.html">Terug</a>
+    <br>
+
+    <p>Cijfer voor voldoende: </p>
+    <input type="number" id="voldoende" name="quantity" min="0.1" max="10">
+
+    <h2>Nonlineaire Normerings Formule:</h2>
+    <a href="main.html">Terug</a>
+    <p>Procent goed: </p>
+    <input class="myRange" type="number" min="1" max="100" value="0" class="slider" id="myRange">
+    <p>Procent voor voldoende: </p>
+    <input type="number" id="normering" name="quantity" min="0" max="100">
+    <br>
+    <p id="nterm"></p>
+    <button id="berekenen">Berekenen</button>
+    <h2 id="cijfer"></h2>
+
+    <br>
+    <br>
+
+    <h2>N-term normering</h2>
+
+    <p>Procent goed: </p>
+    <input class="myRange2" type="number" min="1" max="100" value="0" class="slider" id="myRange2">
+    <p>N-term</p>
+    <input type="number" id="normering2" name="quantity" min="0" max="100">
+    <br>
+    <br>
+    <p id="nonlin"></p>
+    <button id="berekenen2">Berekenen</button>
+
+    <h2 id="cijfer2"></h2>
+</body>
+
+<script type="text/javascript" src="js/cijferberekenen.js"></script>
+
+</html>

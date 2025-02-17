@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+
+    <title>Info over Studie-quiz</title>
+</head>
+<body>
+    <a href="main.html">Terug</a>
+    <h1>Info over Studie-quiz</h1>
+
+    
+
+    <table>
+        <tr>     
+            <th style="width: 50%;">   
+                <p class="tussenkop">
+                    Algemene informatie
+                </p>
+                
+                <p class="infotekstje">
+                    Studie-quiz is een website/project met het doel om leerlingen te helpen met leren door gratis quizzen online toegangelijk maakt.
+                    <br>
+                    <br> 
+                    Vanuit mijn ervaring werkt het leren met de aangeboden quizzen het best als je de woorden opschrijft op papier voor dat je checkt of je het goed had.
+                    <br>
+                    <br> 
+                    Er word niet gegarandeerd dat de quizzen overeenkomen met de schoolboeken of dat de quizzen grammaticaal/inhoudelijk kloppen.
+                    Het is je eigen verantwoordelijkheid om de juiste stof te leren. Let dus altijd op of je het juiste boek hebt gekozen en de juiste stof.
+                </p>
+            </th>
+            
+            <th style="width: 50%;">
+                <p class="tussenkop">
+                    Hoe maak ik een quiz?
+                </p>
+
+                <p class="infotekstje">
+                    Op de <a href="main.html">studie-quiz homepage</a> staat de knop "maak een quiz".
+                    <br>
+                    <br>
+                    De knop leid naar een pagina waar een JSON quiz kan woorden omgezet in Base64. 
+                    <a href="https://nl.wikipedia.org/wiki/JSON">JSON is gegevensformaat.</a> Er staat een voorbeeld van op de <a href="quizmaker.html">"maak een quiz" pagina.</a>
+                    Dit voorbeeld kan in een programma zoals kladblok op je windows computer of een ander programma waarin tekst kan worden bewerkt, aangepast worden.
+                    <br>
+                    <br>
+                    Wanneer je de JSON quiz af hebt, kan je hem omzetten in Base64 en gebruiken op de <a href="quiz.html">"Speel een quiz" pagina.</a>
+                    <br>
+                    <br>
+                    In het JSON voorbeeld staat ook "moeilijkheid", deze kan je negeren omdat het (nog) niks doet.         
+                </p>
+            </th>
+        </tr>
+    
+    </table> 
+
+
+
+
+</body>
+
+<style>
+    .infotekstje {
+        font-size: 18px;
+        text-align: left;
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    table {
+        border:1px solid black;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 16px;
+    }
+
+    th {
+        border:1px solid black;
+    }
+
+    tr {
+        border:1px solid black;
+        height: 500px;
+        vertical-align: text-top;
+    }
+
+    .tussenkop {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+</style>
+
+</html>

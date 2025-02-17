@@ -1,0 +1,87 @@
+body {
+    font-size: 18px;
+    font-family: arial,verdana,helvetica;
+    background-color: #cfccd6;
+    color: #6c47a7;
+    Text-align: center;
+}
+
+.titlemain {
+    font-size: 64px;
+    font-family: arial,verdana,helvetica;
+    color: #6c47a7;
+}
+
+.title2 {
+    font-family: arial,verdana,helvetica;
+    font-size: 32px;
+    color: #6c47a7;
+}
+
+.Play_quiz_btn {
+    font-size: 32px;
+    padding: 4px;
+    width: 350px;
+    height: 92.5px;
+    text-align: center;
+    margin: 3px 2px 3px 2px;
+    color: #52489C;
+    background-color: #bbc2e2;
+    border: 5px;
+    border-radius: 7px;
+    border-color: #6c47a7;
+    border-style: solid;
+    transition: 180ms
+}
+
+.Play_quiz_btn:hover {
+    cursor: pointer;
+    transform: translateY(-6px);
+    box-shadow: 0 4px 5px 0 rgba(88, 88, 88, 0.3);
+    transition: 320ms
+}
+
+.Play_quiz_btn:click {
+    cursor: progress;
+    transform: translateY(3px);
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0);
+    transition: 130ms
+}
+
+.vrageneninvullenenrating {
+    text-align: left;
+    width: 65%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.main {
+    text-align: left;
+    margin-left: 6%;
+    width: 88%;
+    background-color: #b7b5e4;
+    padding: 5px;
+    display: flex;
+}
+
+button {
+    border-style: none none none solid;
+    border-color: #322E18;
+    background-color: #bbc2e2;
+    transition: transform ease 150ms;
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: 2px 3px 6px #848484;
+    transform: translate(0, -1.5px);
+}
+
+.block {
+    width: 35%;
+    display: inline-block;
+}
+
+.omgekeerd_text {
+    display: inline;
+}

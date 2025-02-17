@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="icon" href="icon.png" type="image/x-icon">
+        <title>Quiz aanmaken</title>
+    </head>
+    <body>
+		<a href="main.html">Terug</a>
+        <h3 class="title2">Voer de json quiz in</h3>
+        
+        <textarea id="jsoninput"></textarea>
+        
+        <button onclick='converttobase64()'>Gereed</button>
+        
+        <h3 class="title2">Voorbeeld van Json quiz format:</h3>
+        <h4>Duits quiz woorden leren</h4>
+        <p class="p">{"opgaven": [
+	{"vraag": "populair",
+	"antwoord": "beliebt",
+	"moeilijkheid":  "1"},
+	{"vraag": "beroemd",
+	"antwoord": "berühmt",
+	"moeilijkheid":  "1"},
+	{"vraag": "men",
+	"antwoord": "man",
+	"moeilijkheid":  "1"},
+	{"vraag": "de jam",
+	"antwoord": "die Marmelade",
+	"moeilijkheid":  "1"},
+	{"vraag": "de bloem",
+	"antwoord": "das Mehl",
+	"moeilijkheid":  "1"},
+	{"vraag": "de melk",
+	"antwoord": "die Milch",
+	"moeilijkheid":  "1"},
+	{"vraag": "Oostenrijk",
+	"antwoord": "Österreich",
+	"moeilijkheid":  "1"},
+	{"vraag": "de pannenkoek",
+	"antwoord": "der Pfannkuchen",
+	"moeilijkheid":  "1"},
+	{"vraag": "het zout",
+	"antwoord": "das Salz",
+	"moeilijkheid":  "1"},
+	{"vraag": "de suiker",
+	"antwoord": "der Zucker",
+	"moeilijkheid":  "1"}
+	], "info": "Lektion 1 Duits Vwo 2 hoofdstuk 3 --- vertaal het woord."}</p>
+        
+        
+        <script type="text/javascript" src="js/maker.js"></script>
+        
+        <style>
+            .p {
+                
+                width: 40%;
+                text-align: center;
+                margin-left: 30%;
+                
+            }
+            
+    
+            
+        </style>
+        
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <a href="main.html">Terug</a>
+    <div id="importeer">
+        <h3>Importeer quiz</h3>
+        <textarea id="code" cols="40" rows="4"></textarea>
+        <button onclick="code_gereed()">Gereed</button>
+        <input type="checkbox" id="omgekeerd_knop" checked="false"><p class="omgekeerd_text" title="Zorgt ervoor dat de antwoorden en vragen worden verwisseld.">Wissel vragen met antwoorden</p>  
+        
+    </div>
+    
+    <div class="main">
+        <div class="vrageneninvullenenrating">
+            <h2 id="vraag">Vul een quizcode in om te starten.</h2>
+            <button onclick="invullen()">Toon antwoord</button>
+            <h2 id="antwoord_tonen"></h2>
+    
+	
+	        <div id="rating">
+	            <button onclick="Fout()">Fout</button>
+	            <button onclick="Half_goed()">Half goed</button>
+	            <button onclick="Bijna_goed()">Bijna goed</button>
+	            <button onclick="Goed()">Goed</button>
+	        </div>
+        </div>
+	    <div class="block">
+	        <p style="display:block;margin-left: 3px;" id="punten">Punten: 5</p>
+	        <p style="display:block;margin-left: 3px;" id="vragen">Nog _ vragen</p>
+	        <p style="display:block;margin-left: 3px;" id="beheersing">Beheersing: _</p>
+	        <p style="display:block;margin-left: 3px;" id="info">Info: _</p>
+	    </div>
+	    
+    </div>
+  
+  <a href="quizcodes.html" id="kiesandere">Kies een andere quiz</a>
+    
+    
+	<script type="text/javascript" src="js/quiz.js"></script>
+	
+	
+	    
+	
+  </body>
+</html>
+
+
