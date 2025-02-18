@@ -10,9 +10,21 @@ infotext = document.getElementById("info");
 vragenover = document.getElementById("vragen");
 puntentekst = document.getElementById("punten");
 beheersing = document.getElementById("beheersing");
-kiesandere = document.getElementById("kiesandere")
+kiesandere = document.getElementById("kiesandere");
+document.getElementById("omgekeerd_knop").checked = false;
 
 kiesandere.style.visibility = "hidden"
+
+if (sessionStorage.getItem("quizcode") != null) {
+    console.log("jochem")
+    document.getElementById("code").textContent = sessionStorage.getItem("quizcode");
+    code_gereed()
+} else {
+    alert("Geen sessie opslag voor de quizcode gedetecteerd, vul handmatig de code in.");
+}
+
+
+
 
 function parsejson() {
     
